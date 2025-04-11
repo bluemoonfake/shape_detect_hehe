@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_shape_detector</name>
+  <version>0.0.0</version>
+  <description>Shape detection node for ROS 2</description>
+  <maintainer email="nam27@example.com">nam27</maintainer>
+  <license>Apache 2.0</license>
+
+  <!-- ROS 2 dependencies -->
+  <depend>rclpy</depend>
+  <depend>cv_bridge</depend>
+  <depend>shape_info</depend>  <!-- Replace with the actual package that defines ShapeInfo -->
+  <depend>opencv-python</depend>
+  <depend>numpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
